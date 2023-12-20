@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.warp .bg-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)) , url("./net-home.jpg");
+    width: 100%;
+    height: 115vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    margin-top: 6px;
+}
+.logo a{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    font-size: 3.5rem;
+    color: rgb(229,9,20);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.nav-list{
+    display: flex;
+    gap: 22px;
+    margin-top: 23px;
+}
+.nav-list .nav-drop select{
+    padding: 4px 20px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.nav-list .nav-drop select option{
+    color: black;
+}
+.nav-list .nav-sign a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(229,9,20);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+/* font-family: 'Asap', sans-serif; */
+.content h1{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    font-size: 3.4rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 150px;
+    margin-top: 130px;
+}
+.content #sub-sec{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.7rem;
+}
+.content #sub-sec1{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.35rem;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.mail input{
+    padding: 15px 10px;
+    width: 24rem;
+    font-size: 1.1rem;
+    font-family: 'Asap', sans-serif;
+    color: gray;
+    background: rgba(61, 61, 61, 0.532);
+    border: 1px solid rgba(255, 255, 255, 0.576);
+    border-radius: 5px;
+}
+.mail button{
+    background-color: rgb(229,9,20);
+    padding: 1px 40px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(35,35,35);
+}
+.warp .img-cont{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    padding: 10px 100px;
+}
+.img-cont-text{
+    margin-top: 150px;
+    padding: 0 0 0 80px;
+}
+.img-cont .img-cont-text h2{
+    font-family: 'Asap', sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+.img-cont .img-cont-text p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 4px;
+    font-size: 1.2rem;
+}
+.img-cont-img{
+    margin: 80px 0;
+}
+.img-cont .img-cont-img img{
+    height: 320px;
+    display: flex;
+    justify-content: right;
+}
+/* Que section */
+
+.que{
+    background-color: black;
+    padding: 40px 150px 0;
+}
+.que .que-head{
+    text-align: center;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.que .que-sub{
+    padding: 25px 30px;
+    background-color: rgb(65,65,65);
+    font-family: 'Asap',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+.que .que-sub:hover{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Comment Section */
+
+.comment{
+    margin-bottom: 40px;
+}
+.comment #sub-sec1{
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+.comment .mail button{
+    background-color: rgb(229,9,20);
+    padding: 1px 40px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+.comment .mail input{
+    padding: 15px 10px;
+    width: 24rem;
+    font-size: 1.1rem;
+    font-family: 'Asap', sans-serif;
+    color: gray;
+    background: rgba(61, 61, 61, 0.532);
+    border: 1px solid rgba(255, 255, 255, 0.576);
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: rgb(197, 193, 193);
+    font-family: 'Poppins',sans-serif;
+    padding: 30px 150px;
+}
+footer p a{
+    color: rgb(197, 193, 193);
+}
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.foot-flex ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+.foot-flex ul li a{
+    color: rgb(197, 193, 193);
+}
+.select .nav-drop select{
+    padding: 4px 20px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    color: rgb(197, 193, 193);
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.select .nav-drop select option{
+    color: black;
+}
+.select .nav-sign a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(197, 193, 193);
+    background-color: rgb(229,9,20);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+.brand p{
+    font-size: .9rem;
+}
