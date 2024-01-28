@@ -166,7 +166,9 @@ body{
 .que .que-sub:hover{
     background-color: rgba(255, 255, 255, 0.35);
 }
-
+.fa-plus:hover{
+    rotate: 45deg;
+}
 /* Comment Section */
 
 .comment{
